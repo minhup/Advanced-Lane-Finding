@@ -124,7 +124,7 @@ where $x = Ay^2 + By + C$ is the equation of lane line.
 The position of vehicle with respect to center is also calculated in lines 539-543
 
 ### Result
-The final step is to warp the detected lane boundaries back onto the original image, output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position. An example of output image is:
+The final step is to warp the detected lane boundaries back onto the original image, output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position. The test image results are in folder `test_images`, the video results are in folder `test_videos`. An example of output image is:
 
 ![alt text][image14]
 
