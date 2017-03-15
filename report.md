@@ -34,7 +34,7 @@ The lane line detection pipeline consists of the following stages:
 [image13]:./report_images/fit_img.jpg
 
 [image14]:./report_images/result.jpg
-[image15]: ./report_images/curvature.gif
+[image15]:./report_images/curvature.gif
 
 ### Camera Calibration and distortion correction
 
