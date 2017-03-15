@@ -1,5 +1,5 @@
 
-##Advanced Lane Finding Project
+## Advanced Lane Finding Project
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 The lane line detection pipeline consists of the following stages:
@@ -34,8 +34,9 @@ The lane line detection pipeline consists of the following stages:
 [image13]:./report_images/fit_img.jpg
 
 [image14]:./report_images/result.jpg
+[image15]: ./report_images/curvature.gif
 
-###Camera Calibration and distortion correction
+### Camera Calibration and distortion correction
 
 The code for this step is contained in the file `cam_cal.py`.
 
@@ -113,7 +114,10 @@ The video detection  process also used moving-window technique to collect lane-l
 ### Radius of curvature of the lane and the position of vehicle with respect to center.
 The radius of curvature is calculated by the equation of the lane based on the following formula (lines 526-536):
 
-$$ R_{curvature} = frac{(1+(2Ay+B)^2)^{3/2}}{|2A|}$$
+
+
+![alt text][image15]
+
 
 where $x = Ay^2 + By + C$ is the equation of lane line.
 
@@ -126,13 +130,18 @@ The final step is to warp the detected lane boundaries back onto the original im
 
 Here's a [link to my project video result](./test_video/project_video_result.mp4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nwwo6dGWgOY" frameborder="0" allowfullscreen></iframe>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Nwwo6dGWgOY
+" target="_blank"><img src=".\images\track_1.png"
+alt="Video Track 1" width="480" height="360" border="1" /></a>
 
 Here's a [link to my challenge video result](./test_video/challenge_video_result.mp4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/589kliPG1mg" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=589kliPG1mg
+" target="_blank"><img src=".\images\track_2.png"
+alt="Video Track 2" width="480" height="360" border="1" /></a>
 
-###Discussion
+### Discussion
 
 The pipeline worked well the project video and challenge video. However it is still not good enough for harder challenge video. The reason is that the pipeline relies on color transform technique which easily fails when the light condition changes rapidly from frame to frame. In my opinion, the more robust technique is to combine tradition computer vision with deep learning:
 

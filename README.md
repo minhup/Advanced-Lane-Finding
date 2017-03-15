@@ -13,12 +13,17 @@ This project requires **Python 3.5** and the following Python libraries installe
 - [NumPy](http://www.numpy.org/)
 - [OpenCV](http://opencv.org/)
 
-###Result
+### Result
 
 Here's a [link to my project video result](./test_video/project_video_result.mp4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nwwo6dGWgOY" frameborder="0" allowfullscreen></iframe>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Nwwo6dGWgOY
+" target="_blank"><img src=".\images\track_1.png"
+alt="Video Track 1" width="480" height="360" border="1" /></a>
 
 Here's a [link to my challenge video result](./test_video/challenge_video_result.mp4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/589kliPG1mg" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=589kliPG1mg
+" target="_blank"><img src=".\images\track_2.png"
+alt="Video Track 2" width="480" height="360" border="1" /></a>
